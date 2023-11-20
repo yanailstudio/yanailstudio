@@ -1,0 +1,173 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	font-family: arial;
+}
+
+div{
+	box-sizing: border-box;
+}
+
+.navbar{
+	width: 100%;
+	background-color: #9c4378;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.logo{
+	font-size: 30px;
+	font-weight: bold;
+	color: #7C9D96;
+	padding: 10px 0px;
+	font-family: Yeseva One;
+}
+
+.logo span {
+	color: #E9B384;
+}
+
+.nav-menu{
+	width: 40%;
+	align-items: center;
+	list-style-type: none;
+	display: flex;
+	justify-content: space-around;
+}
+
+.nav-menu li a {
+	font-size: 18px;
+	color: white;
+	text-decoration: none;
+}
+
+.nav-menu li a:hover {
+	font-size: 20px;
+	color: #A1CCD1;
+	text-decoration: underline;
+	transition: 0.3s;
+	position: 
+}
+
+.foto{
+	background-image: url(foto/nails6.jpg);
+	width: 100%;
+	height: 500px;
+	background-size: cover;
+	background-position-y:-150px;
+}
+
+.judulmenu{
+	width: 100%;
+	font-size: 30px;
+	background-size: cover;
+	background-position-y:-150px;
+	background-color: pink;
+	text-align: center;
+	font-family: PT Serif Caption;
+	padding: 5px 0px 5px 0px;
+	color: #eb0797;
+}
+
+.text{
+	font-size: 80px;
+	color: white;
+}
+
+p{
+	padding-top:150px;
+	padding-right: 0px;
+	padding-bottom:0px;
+	padding-left: 30px;
+	font-family: Noto Serif;
+	color: #ffb5e8;
+}
+
+.font{
+	font-size: 50px;
+	color: white;
+}
+
+h1{
+	padding-top:0px;
+	padding-right: 0px;
+	padding-bottom: 100px;
+	padding-left: 30px;
+	font-family: Noto Serif;
+	color: #ffb5e8;	
+}
+
+.navtim{
+	background-image: url(foto/latar.jpeg);
+	width: 100%;
+	background-size: cover;
+	background-position-y:150px;
+	display: flex;
+	justify-content: space-around;
+	padding: 10px 0px 10px 0px;
+}
+
+.nailgel{
+	color: #E85A8C;
+	margin: 0px;
+	font-size: 22px;
+	font-family:Playfair Display;
+	width: 40%;
+	padding: 0px 20px 0px 20px;
+}
+
+.harga{
+	color: #E85A8C;
+	margin: 0px;
+	font-size: 23px;
+	font-family:Playfair Display;
+	width: 40%;
+	padding: 0px 50px 0px 50px;
+}
+
+.harga ul{
+	list-style-type: none;
+}
+
+.harga1{
+	color: #E85A8C;
+	margin: 0px;
+	font-size: 24px;
+	font-family:Playfair Display;
+	width: 40%;
+	padding: 0px 50px 0px 50px;
+}
+
+.image{
+	background-image: url(foto/lokasi1.jpg);
+	width: 100%;
+	height: 500px;
+	background-size: cover;
+	background-position-y: 600px;	
+}
+
+.nailtip{
+	color: black;
+	margin: 0px;
+	font-size: 30px;
+	font-family:Playfair Display;
+	width: 100%;
+	padding: 0px 0px 0px 300px;
+	padding:center;
+	text-shadow: 5px 5px #3399ab;
+}
+
+.insta{
+	text-align: center;
+	flex-direction: column;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #ffb5e8;
+	padding: 15px 0px 0px 0px;
+	font-family: Noto Serif;
+}
